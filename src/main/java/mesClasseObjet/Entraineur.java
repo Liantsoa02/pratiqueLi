@@ -12,27 +12,27 @@ import java.util.Date;
  * @author usager
  */
 public class Entraineur {
-    private Date dateNaissance;
+    private String qualification;
 
     public Entraineur() {
     }
 
-    public Entraineur(Date dateNaissance) {
-        this.dateNaissance = dateNaissance;
+    public Entraineur(String qualification) {
+        this.qualification = qualification;
     }
 
-    public Date getDateNaissance() {
-        return dateNaissance;
+    public String getQualification() {
+        return qualification;
     }
 
-    public void setDateNaissance(Date dateNaissance) {
-        this.dateNaissance = dateNaissance;
+    public void setQualification(String qualification) {
+        this.qualification = qualification;
     }
 
     @Override
     public String toString() {
-        return "Entraineur{" + "dateNaissance=" + dateNaissance + '}';
+        return "Entraineur{" + "qualification=" + qualification + '}';
     }
-    
+
     
 }
